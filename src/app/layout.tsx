@@ -37,7 +37,7 @@ export default async function RootLayout({
       )}
     >
       <head>
-        <script
+        {/* <script
           id="theme-init"
           dangerouslySetInnerHTML={{
             __html: `
@@ -93,10 +93,11 @@ export default async function RootLayout({
               })();
             `,
           }}
-        />
+        /> */}
       </head>
       <Providers>
         <Column as="body" background="page" fillWidth style={{minHeight: "100vh"}} margin="0" padding="0" horizontal="center">
+          {/* removed for customization */}
           <Background
             position="fixed"
             mask={{

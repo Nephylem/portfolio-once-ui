@@ -14,7 +14,7 @@ const person = {
 };
 
 const newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
@@ -30,17 +30,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/Nephylem",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.linkedin.com/in/john-paul-nepomuceno-812434182/",
   },
   {
     name: "Email",
@@ -55,7 +50,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Making ideas look good — and work great.</>,
   featured: {
     display: true,
     title: (
@@ -67,13 +62,8 @@ const home = {
   },
   subline: (
     <>
-      I'm Paul, a design engineer at{" "}
-      <Logo
-        icon="/trademarks/wordmark-dark.svg"
-        style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
-      />
-      , where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I’m Paul — Web Scraping Engineer, Python&nbsp;Developer, and Cyber Security
+      Enthusiast.
     </>
   ),
 };
@@ -92,7 +82,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/nephy",
   },
   intro: {
     display: true,
@@ -249,7 +239,6 @@ const about = {
           </>
         ),
       },
- 
     ],
   },
   technical: {

@@ -8,7 +8,7 @@ const routes = {
   "/about": true,
   "/work": true,
   "/blog": true,
-  "/gallery": true,
+  "/gallery": false,
 };
 
 const display = {
@@ -88,45 +88,45 @@ const dataStyle = {
 
 const effects = {
   mask: {
-    cursor: false,
+    cursor: true,
     x: 50,
-    y: 0,
+    y: 50,
     radius: 100,
   },
   gradient: {
-    display: false,
+    display: true,
     opacity: 100,
     x: 50,
-    y: 60,
+    y: 50,
     width: 100,
-    height: 50,
+    height: 100,
     tilt: 0,
     colorStart: "accent-background-strong",
-    colorEnd: "page-background",
+    colorEnd: "static-transparent",   
   },
   dots: {
-    display: true,
-    opacity: 40,
-    size: "2",
-    color: "brand-background-strong",
+    display: false,
+    opacity: 1, 
+    size: "24", 
+    color: "brand-on-background-strong", 
   },
   grid: {
-    display: false,
-    opacity: 100,
+    display: true,
+    opacity: 1,
     color: "neutral-alpha-medium",
     width: "0.25rem",
     height: "0.25rem",
   },
   lines: {
-    display: false,
-    opacity: 100,
+    display: true,
+    opacity: 1,
     color: "neutral-alpha-weak",
-    size: "16",
+    size: "24",
     thickness: 1,
-    angle: 45,
+    angle: 20,
   },
 };
-
+ 
 const mailchimp = {
   action: "https://url/subscribe/post?parameters",
   effects: {
@@ -151,7 +151,7 @@ const mailchimp = {
       display: true,
       opacity: 20,
       size: "2",
-      color: "brand-on-background-weak",
+      color: "accent-on-background-weak",
     },
     grid: {
       display: false,
