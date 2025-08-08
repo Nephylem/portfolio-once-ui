@@ -63,7 +63,7 @@ const style = {
   theme: "system", // dark | light | system
   neutral: "gray", // sand | gray | slate | custom
   brand: "cyan", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
-  accent: "red", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
+  accent: "violet", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
   solid: "contrast", // color | contrast
   solidStyle: "flat", // flat | plastic
   border: "playful", // rounded | playful | conservative
@@ -88,10 +88,10 @@ const dataStyle = {
 
 const effects = {
   mask: {
-    cursor: true,
-    x: 50,
-    y: 50,
-    radius: 100,
+    cursor: false,
+    radius: 80,
+    y: 100,
+    x: 100,
   },
   gradient: {
     display: true,
@@ -101,7 +101,7 @@ const effects = {
     width: 100,
     height: 100,
     tilt: 0,
-    colorStart: "accent-background-strong",
+    colorStart: "neutral-background-strong",
     colorEnd: "static-transparent",   
   },
   dots: {
@@ -144,7 +144,7 @@ const mailchimp = {
       width: 50,
       height: 50,
       tilt: 0,
-      colorStart: "accent-background-strong",
+      colorStart: "static-background-strong",
       colorEnd: "static-transparent",
     },
     dots: {
