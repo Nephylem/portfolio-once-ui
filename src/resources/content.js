@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Web Developer | API Developer",
+  role: "Web Developer | Python Developer",
   avatar: "/images/avatar.jpg",
   email: "jpnepomuceno80s@gmail.com",
   location: "Asia/Philippines", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -52,7 +52,7 @@ const home = {
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Making ideas look good — and work great.</>,
   featured: {
-    display: true,
+    display: false,
     title: (
       <>
         Recent project: <strong className="ml-4">Taisk.com</strong>
@@ -89,10 +89,9 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        tincidunt quis arcu vel laoreet. Etiam id justo ut lorem pretium mollis.
-        Mauris tristique nec lacus et gravida. Integer imperdiet aliquam
-        consectetur.
+        I am Paul, a web scraping engineer, python developer, web developer, and
+        cybersecurity enthusiast dedicated to turning complex challenges into
+        elegant solutions.
       </>
     ),
   },
@@ -257,13 +256,13 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/tech01.jpg",
+            src: "/images/projects/techskills/tech01.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/tech02.jpg",
+            src: "/images/projects/techskills/tech02.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -281,7 +280,7 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/tech03.jpg",
+            src: "/images/projects/techskills/tech03.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -300,7 +299,7 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/tech04.jpg",
+            src: "/images/projects/techskills/tech04.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -311,13 +310,14 @@ const about = {
         title: "LLMs",
         description: (
           <>
-            Experienced in leveraging LLM models with RAG pipelines and advanced prompt engineering for optimized AI-driven solutions.
+            Experienced in leveraging LLM models with RAG pipelines and advanced
+            prompt engineering for optimized AI-driven solutions.
           </>
         ),
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/tech05.jpg",
+            src: "/images/projects/techskills/tech05.jpg",
             alt: "Project image",
             width: 16,
             height: 9,

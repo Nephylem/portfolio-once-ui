@@ -7,8 +7,8 @@ const routes = {
   "/": true,
   "/about": true,
   "/work": true,
-  "/blog": true,
-  "/gallery": true,
+  "/blog": false,
+  "/gallery": false,
 };
 
 const display = {
@@ -174,10 +174,10 @@ const mailchimp = {
 // default schema data
 const schema = {
   logo: "",
-  type: "Organization",
-  name: "Once UI",
+  type: "Indivial",
+  name: "John Paul Nepomuceno",
   description: home.description,
-  email: "lorant@once-ui.com",
+  email: "jpnepomuceno80s@gmail.com",
 };
 
 // social links
