@@ -62,8 +62,8 @@ const home = {
   },
   subline: (
     <>
-      I’m Paul — Web Scraping Engineer, Python&nbsp;Developer, and Cyber Security
-      Enthusiast.
+      I’m Paul — Web Scraping Engineer, Python&nbsp;Developer, and Cyber
+      Security Enthusiast.
     </>
   ),
 };
@@ -246,20 +246,24 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "N8n",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>
+            Developed an n8n workflow integrating LLMs with Outlook to fully
+            automate email drafting, writing, and sending — reducing manual
+            effort to zero.
+          </>
         ),
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
+            src: "/images/projects/project-01/tech01.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
+            src: "/images/projects/project-01/tech02.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -267,14 +271,53 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
+        title: "Flask",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>
+            Maintain and optimize a Flask-based backend application, ensuring
+            stability, performance, and seamless feature updates.
+          </>
         ),
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
+            src: "/images/projects/project-01/tech03.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Selenium & Puppeteer",
+        description: (
+          <>
+            Experienced in developing efficient web scraping scripts, capable of
+            handling dynamic, JavaScript-heavy websites, automating browser
+            interactions, and extracting structured data at scale.
+          </>
+        ),
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/tech04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "LLMs",
+        description: (
+          <>
+            Experienced in leveraging LLM models with RAG pipelines and advanced prompt engineering for optimized AI-driven solutions.
+          </>
+        ),
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/tech05.jpg",
             alt: "Project image",
             width: 16,
             height: 9,

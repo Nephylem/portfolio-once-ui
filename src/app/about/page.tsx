@@ -260,7 +260,7 @@ export default function About() {
                       {institution.name}
                     </Text>
                     {institution.cert && (
-                      <SmartLink href={institution.cert} target="_blank" >certification</SmartLink>
+                      <SmartLink href={institution.cert} style={{marginTop: "5px"}} target="_blank" >Certification</SmartLink>
                     )}
                     <Text variant="heading-default-xs" onBackground="neutral-weak">
                       {institution.description}
